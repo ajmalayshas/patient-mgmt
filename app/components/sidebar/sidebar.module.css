@@ -1,0 +1,35 @@
+.sidebar{
+    background: rgb(255, 255, 255);
+    min-height: 100vh;
+    width: 100%;
+    position: sticky;
+    top: 100px;
+    box-shadow: 0 0 10px #cccccc;
+    border-radius: 10px;
+}
+
+.sidebar ul li{
+    background-color: transparent;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px 25px!important;
+
+}
+.sidebar ul li a{
+    color: #000;
+    font-weight: 600;
+}
+.sidebar ul li:hover{
+    background-color: #cccccc;
+    margin: 10px;
+
+}
+
+.sidebar_active{
+    background-color: rgb(102, 0, 255)!important;
+    margin: 10px;
+    
+}
+.sidebar_active a{
+    color: white!important;
+}
